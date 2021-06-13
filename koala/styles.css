@@ -1,0 +1,87 @@
+body {
+    background: #f7f6f0;
+}
+.box {
+    position: fixed;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head {
+    position: absolute;
+    width: 50%;
+    height: 67%;
+    left: 25%;
+    top: 16.5%;
+}
+.head-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #a6becf;
+    border-radius: 50%;
+    z-index: 2;
+}
+.left-ear,
+.right-ear {
+    position: absolute;
+    background: #819caf;
+    width: 45%;
+    height: 50%;
+    top: 5%;
+    border-radius: 50%;
+    border: 20px solid #a6becf;
+    z-index: 1;
+}
+.left-ear {
+    left: -20%;
+}
+.right-ear {
+    right: -20%;
+}
+.left-eye,
+.right-eye {
+    position: absolute;
+    background: #59475d;
+    width: 9%;
+    height: 11%;
+    top: 25%;
+    z-index: 3;
+    border-radius: 50%;
+    border: 30px solid #fff;
+}
+.left-eye {
+    left: 22%;
+}
+.right-eye {
+    right: 22%;
+}
+.nose {
+    position: absolute;
+    background: #59475d;
+    width: 25%;
+    left: 37.5%;
+    height: 42.5%;
+    top: 45%;
+    z-index: 3;
+    border-radius: 50%/35%;
+}
+.left-hair,
+.right-hair {
+    position: absolute;
+    background: #a6becf;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 20%;
+    height: 20%;
+}
+.left-hair {
+    top: -8%;
+    left: 25%;
+}
+.right-hair {
+    top: -6%;
+    right: 40%;
+}
