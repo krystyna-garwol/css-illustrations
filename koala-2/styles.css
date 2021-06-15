@@ -136,3 +136,33 @@ body {
     right: -8%;
     transform: rotate(60deg);
 }
+.left-foot,
+.right-foot {
+    position: absolute;
+    background: #b0cbd9;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    border-radius: 50%;
+    z-index: 4;
+}
+.left-foot {
+    left: -10%;
+    transform: rotate(-26deg);
+}
+.right-foot {
+    right: -10%;
+    transform: rotate(26deg);
+}
+.left-inner-foot,
+.right-inner-foot {
+    position: absolute;
+    background: #9ec0cf;
+    width: 70%;
+    height: 80%;
+    top: 10%;
+    border-radius: 50%;
+}
+.right-inner-foot {
+    right: 0%;
+}
