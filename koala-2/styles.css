@@ -9,7 +9,6 @@ body {
     width: 600px;
     height: 600px;
     transform: translate(-50%, -50%);
-    border: 2px solid red;
 }
 .head {
     position: absolute;
@@ -22,7 +21,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#cadbe5, #b0cbd9);
+    background: #b5cedb;
     clip-path: ellipse(50% 46% at 50% 50%);
     -webkit-clip-path: ellipse(50% 46% at 50% 50%);
     z-index: 2;
@@ -90,6 +89,75 @@ body {
     top: 29%;
     border-radius: 51% 49% 50% 50% / 57% 57% 43% 43%;
     z-index: 4;
+}
+
+.left-ear-1,
+.right-ear-1 {
+    position: absolute;
+    background: #b5cedb;
+    width: 30%;
+    height: 50%;
+    top: -5%;
+    border-radius: 50%;
+}
+.left-ear-1 {
+    left: -10%;
+    transform: rotate(-80deg);
+}
+.right-ear-1 {
+    right: -10%;
+    transform: rotate(80deg);
+}
+.left-ear-2,
+.right-ear-2 {
+    position: absolute;
+    background: #b5cedb;
+    width: 25%;
+    height: 35%;
+    top: 12%;
+    clip-path: ellipse(36% 50% at 50% 50%);
+}
+.left-ear-2 {
+    left: -18%;
+    transform: rotate(55deg);
+}
+.right-ear-2 {
+    right: -18%;
+    transform: rotate(-55deg);
+}
+.left-ear-3,
+.right-ear-3 {
+    position: absolute;
+    background: #b5cedb;
+    width: 25%;
+    height: 35%;
+    top: 20%;
+    clip-path: ellipse(36% 50% at 50% 50%);
+}
+.left-ear-3 {
+    left: -10%;
+    transform: rotate(40deg);
+}
+.right-ear-3 {
+    right: -10%;
+    transform: rotate(-40deg);
+}
+.left-inner-ear,
+.right-inner-ear {
+    position: absolute;
+    background: #9ec0cf;
+    width: 30%;
+    height: 30%;
+    top: 17%;
+    clip-path: ellipse(44% 50% at 50% 50%);
+}
+.left-inner-ear {
+    left: -5%;
+    transform: rotate(120deg);
+}
+.right-inner-ear {
+    right: -5%;
+    transform: rotate(120deg);
 }
 
 /* Body and its components */
@@ -165,4 +233,14 @@ body {
 }
 .right-inner-foot {
     right: 0%;
+}
+.shadow {
+    position: absolute;
+    background: #eeede9;
+    width: 20%;
+    height: 64%;
+    clip-path: ellipse(35% 50% at 50% 50%);
+    transform: rotate(90deg);
+    top: 57%;
+    left: 41%;
 }
